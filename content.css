@@ -1,0 +1,102 @@
+body{
+    background-image: url(content.jpg);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:100% 100%;
+    background-attachment: fixed;
+}
+.nav{
+    width: 100%;
+}
+#current{
+    font-size: 43px;
+    background-color: white;
+    color: black;
+}
+ul{
+    list-style-type:none;
+    display: block;
+    left:0;
+    top: 100px;
+    margin:0;
+    padding:0;
+    overflow: visible;
+    text-align:center;
+}
+li{
+    float: left;
+    width: 25%;
+    font-size: 27px;
+}
+li a{
+    display: block;
+    color: white;
+    top: 0;
+    padding: 10px;
+    background-color: black;
+    text-decoration: none;
+    transition-property: all;
+    transition-delay: 0s;
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+}
+li a:hover{
+    font-size: 43px;
+    background-color: white;
+    color: black;
+}
+h1{
+    color: white;
+    width: 100%;
+    padding: 20px;
+    font-size: 50px;
+    font-family: lato;
+    text-align: center;
+    text-shadow:5px 2px 5px red;
+}
+h3{
+    color: ghostwhite;
+    font-size: 30px;
+    font-family: lato;
+    text-align: center;
+    text-shadow:1px 2px black;
+}
+p{
+    font-size: 20px;
+}
+.andro{
+    background-color: #eaa;
+    border:solid 5px black;
+    box-shadow: 5px 5px 5px black;
+    margin:10% 30%;
+    padding: 50px;
+}
+.ios{
+   background-color: #eaa;
+    border:solid 5px black;
+    box-shadow: 5px 5px 5px black;
+    margin:10% 30%;
+    padding: 50px;
+}
+.windo{
+    background-color: #eaa;
+    border:solid 5px black;
+    box-shadow: 5px 5px 5px black;
+    margin:10% 30%;
+    padding: 50px;
+}
+.mac{
+    background-color: #eaa;
+    border:solid 5px black;
+    box-shadow: 5px 5px 5px black;
+    margin:10% 30%;
+    padding: 50px;
+}
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: skyblue;
+    text-align: center;
+}
