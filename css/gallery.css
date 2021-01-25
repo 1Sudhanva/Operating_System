@@ -1,0 +1,64 @@
+img{
+    display: block;
+    margin:auto;
+    box-shadow:5px 5px 15px black;
+}
+.navbar{
+    font-family: sans-serif;
+    width: 100%;
+    overflow: auto;
+    margin: auto;
+}
+.navbar a{
+    font-family: sans-serif;
+    font-size: 27px;
+    color: deepskyblue;
+    text-align: center;
+    text-decoration:none;
+    width:21.9%;
+    float: left;
+    padding: 10px;
+}
+.navbar a:hover{
+    text-decoration: overline;
+}
+#current{
+    font-family: sans-serif;
+    text-decoration: overline;
+}
+.andro{
+    background-color:aqua;
+    border:solid 5px black;
+    box-shadow: 5px 5px 5px black;
+    margin:10px;
+    padding: 10px;
+}
+.ios{
+    background-color: aqua;
+    border:solid 5px black;
+    box-shadow: 5px 5px 5px black;
+    margin:10px;
+    padding: 10px;
+}
+.windo{
+    background-color: aqua;
+    border:solid 5px black;
+    box-shadow: 5px 5px 5px black;
+    margin:10px;
+    padding: 10px;
+}
+.mac{
+    background-color: aqua;
+    border:solid 5px black;
+    box-shadow: 5px 5px 5px black;
+    margin:10px;
+    padding: 10px;
+}
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: skyblue;
+    text-align: center;
+}
