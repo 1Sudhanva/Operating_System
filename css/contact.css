@@ -1,0 +1,84 @@
+body{
+    background-image: url(contact.jpg);
+    background-repeat:no-repeat;
+    background-position: center;
+    background-color: black;
+    background-attachment: fixed;
+    font-size:sans-serif;
+}
+span{
+    color: white;
+    font-size:30px;
+    cursor:no-drop;
+    
+}
+.sidenav{
+    background-color: deepskyblue;
+    height: 100%;
+    width: 110px;
+    left: -105;
+    top: 0;
+    position: fixed;
+    overflow-x: hidden;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    transition-delay:0s;
+    transition-duration:0 .5s;
+    transition-property:all;
+    transition-timing-function: linear;
+}
+.sidenav a{
+    padding:10px;
+    font-size:25px;
+    display: block;
+    font-family: sans-serif;
+    text-decoration: none;
+    text-shadow:1px 2px 3px black;
+    color: yellow;
+}
+.sidenav a:hover{
+    background-color: dodgerblue;
+    color: antiquewhite;
+}
+#current{
+    background-color: dodgerblue;
+    color: antiquewhite;
+}
+.container{
+    text-align: center;
+    padding: 20px;
+    color: orangered;
+}
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: skyblue;
+    text-align: center;
+}
+.my_info{
+    margin: 20px;
+}
+img{
+    display: block;
+    margin: auto;
+    margin-left: 45%;
+    height: 150px;
+    box-shadow: 0px 0px 100px black;
+}
+h1{
+    color: yellow;
+    font-size: 30px;
+    font-family: sans-serif;
+    text-align: center;
+    text-shadow:2px 2px 3px black;
+}
+h2{
+     color: white;
+    font-size: 25px;
+    font-family: sans-serif;
+    text-align: center;
+    text-shadow:5px 2px 5px black;
+    margin-left:;
+}

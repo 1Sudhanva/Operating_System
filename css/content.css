@@ -1,19 +1,17 @@
 body{
-    background-image:url("home.jpg");
+    background-image: url(content.jpg);
     background-repeat:no-repeat;
     background-position:center;
     background-size:100% 100%;
     background-attachment: fixed;
 }
 .nav{
-    background-color: aqua;
     width: 100%;
 }
 #current{
     font-size: 43px;
-    background-color: deepskyblue;
-    text-shadow: 2px 2px 2px black;
-    color: white;
+    background-color: white;
+    color: black;
 }
 ul{
     list-style-type:none;
@@ -32,10 +30,10 @@ li{
 }
 li a{
     display: block;
-    color: black;
+    color: white;
     top: 0;
     padding: 10px;
-    background-color: navajowhite;
+    background-color: black;
     text-decoration: none;
     transition-property: all;
     transition-delay: 0s;
@@ -55,48 +53,44 @@ h1{
     font-family: lato;
     text-align: center;
     text-shadow:5px 2px 5px red;
-    }
-h2{
-    color: white;
-    font-size: 25px;
+}
+h3{
+    color: ghostwhite;
+    font-size: 30px;
     font-family: lato;
     text-align: center;
-    text-shadow:5px 2px 5px blue;
-    }
-table{
-    font-family: lato;
-    border-collapse: collapse;
-    width: 400px;
-    margin-top:20px;
-    box-shadow: 0px 0px 15px black;
+    text-shadow:1px 2px black;
 }
-table:hover{
-    box-shadow: 2px 2px 15px white;
-}
-th{
+p{
     font-size: 20px;
-    text-align:center;
-    padding-top: 8px;
-    background-color: deepskyblue;
 }
-td{
-    font-size: 15px;
-    text-align:center;
-    padding: 8px;
+.andro{
+    background-color: #eaa;
+    border:solid 5px black;
+    box-shadow: 5px 5px 5px black;
+    margin:10% 30%;
+    padding: 50px;
 }
-td a{
-    color: black;
-    text-decoration:none;
+.ios{
+   background-color: #eaa;
+    border:solid 5px black;
+    box-shadow: 5px 5px 5px black;
+    margin:10% 30%;
+    padding: 50px;
 }
-td a:hover{
-    color: blue;
-    text-decoration: overline;
+.windo{
+    background-color: #eaa;
+    border:solid 5px black;
+    box-shadow: 5px 5px 5px black;
+    margin:10% 30%;
+    padding: 50px;
 }
-tr:nth-child(odd){
-     background-color: deepskyblue;
-}
-tr:nth-child(even){
-     background-color: navajowhite;
+.mac{
+    background-color: #eaa;
+    border:solid 5px black;
+    box-shadow: 5px 5px 5px black;
+    margin:10% 30%;
+    padding: 50px;
 }
 .footer{
     position: fixed;
